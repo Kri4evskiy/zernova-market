@@ -16,6 +16,12 @@ body {
 	overflow-x: hidden;
 }
 
+body {
+	&[class*='lock'] {
+		overflow: hidden;
+	}
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
