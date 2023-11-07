@@ -3,7 +3,7 @@
 .main {
 	display: flex;
 	padding: 16px 8px;
-	min-height: calc(100vh - $header-height - $footer-height);
+	min-height: calc(100vh - $footer-height);
 
 	@media (min-width: $min-desktop-width) {
 		background-color: blue;
