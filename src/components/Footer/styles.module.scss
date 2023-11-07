@@ -1,0 +1,7 @@
+@import '@/styles/variables.module.scss';
+
+.wrapper {
+	width: 100%;
+	height: $footer-height;
+	border-top: 1px solid red;
+}

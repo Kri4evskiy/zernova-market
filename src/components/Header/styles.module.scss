@@ -1,0 +1,7 @@
+@import '@/styles/variables.module.scss';
+
+.wrapper {
+	width: 100%;
+	height: $header-height;
+	border-bottom: 1px solid red;
+}
